@@ -92,7 +92,7 @@ table {
 }
 
 table tr td {
-    border-bottom: 2px solid black;
+    border-bottom: 0.5px solid black;
     margin: 0px;
     padding: 0px;
     /* border-bottom: 2px solid black; */
@@ -144,6 +144,7 @@ table tr td:nth-last-child(1) {
     }
 
 }
+
 
 
 
