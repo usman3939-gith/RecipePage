@@ -109,7 +109,7 @@ table tr td:nth-last-child(1) {
 /* table tr:last-child{
     border-bottom: none;
 } */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     body {
         background: white;
     }
@@ -144,6 +144,7 @@ table tr td:nth-last-child(1) {
     }
 
 }
+
 
 
 
