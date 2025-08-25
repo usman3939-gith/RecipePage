@@ -16,7 +16,7 @@ body {
 .main-card {
     background-color: white;
     width: 100%;
-    max-width: 60vw;
+    max-width: 80vw;
     border-radius: 20px;
     margin: 70px auto;
     padding: 40px;
@@ -144,3 +144,4 @@ table tr td:nth-last-child(1) {
     }
 
 }
+
