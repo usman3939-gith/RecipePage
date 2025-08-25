@@ -56,7 +56,7 @@ ul li
 , ol li {
     margin: 12px;
 }
-ul li
+ul li::marker
 , ol li::marker {
     color: #875a4f;
     margin: 12px;
@@ -109,6 +109,7 @@ ul li
 }
    
  }
+
 
 
 
