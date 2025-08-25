@@ -1,9 +1,7 @@
-
-
 * {
     margin: 0;
     padding: 0;
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Young+Serif&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Young+Serif&display=swap');
 }
 
 body {
@@ -42,7 +40,7 @@ body {
 h1 {
     color: black;
     font-family: "Lato", sans-serif;
-     /* margin-bottom: 10px; */
+    /* margin-bottom: 10px; */
     font-size: 50px;
 }
 
@@ -50,7 +48,7 @@ p {
     font-size: 16px;
     font-weight: bold;
     color: #662a45;
-    
+
 }
 
 .Preparation-time ul {
@@ -83,33 +81,40 @@ ol li::marker {
 }
 
 table {
+    border-collapse: collapse;
     margin: 0px;
     padding: 0px;
     height: 150px;
     width: 100%;
-    border-collapse: collapse;
+    /* border-bottom: 2px solid black; */
 
 }
 
 table tr td {
-    border-bottom: 0.5px solid black;
+    /* border-bottom: 2px solid black; */
     margin: 0px;
     padding: 0px;
-    /* border-bottom: 2px solid black; */
+    border-bottom: 0.5px solid black;
 }
 
-table tr:last-child td{
+/* table tr td:last-child{
     border-bottom: none;
-}
+} */
 table tr td:nth-last-child(1) {
     color: #875a4f;
     font-weight: bold;
 }
 
-/* table tr:last-child{
+table tr:last-child td{
     border-bottom: none;
-} */
-@media screen and (max-width: 400px) {
+}
+strong{
+    font-weight: 700;
+}
+hr{
+    color: #888785;
+}
+@media screen and (max-width: 375px) {
     body {
         background: white;
     }
@@ -144,9 +149,3 @@ table tr td:nth-last-child(1) {
     }
 
 }
-
-
-
-
-
-
