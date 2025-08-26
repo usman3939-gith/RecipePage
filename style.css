@@ -133,14 +133,14 @@ hr {
 }
 .hidden img{
     /* max-width: 100%; */
-    width: 105vw;
+    width: 117vw;
 }
     .main-card {
         width: 100vw;
         margin: 0;
         /* padding: 0px 12px; */
         margin: 0;
-        padding: 010px;
+        padding: 35px;
         border-radius: 0px;
         max-width: 100%;
 
@@ -172,3 +172,4 @@ display: none;
     }
 
 }
+
